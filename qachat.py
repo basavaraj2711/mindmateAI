@@ -68,7 +68,7 @@ st.sidebar.title("Solutions Which Can Help you")
 page = st.sidebar.selectbox("Choose how we can help you:", ["Chatbot", "Mindfulness & Meditation", "Anonymous Help Requests", "Success Stories", "Feelings Questionnaire", "Healthcare Resources"])
 
 # Center the logo using Streamlit columns
-logo_path = Path(r"C:/Users/Hp/OneDrive/Desktop/End-To-End-Gemini-Project/Screenshot 2024-09-24 141917.png")
+#logo_path = Path(r"C:/Users/Hp/OneDrive/Desktop/End-To-End-Gemini-Project/Screenshot 2024-09-24 141917.png")
 
 
 # Display the title and logo
@@ -77,8 +77,8 @@ st.markdown('<div class="title-style">🌟 You deserve to be happy. 🌟</div>',
 col1, col2, col3 = st.columns([1, 2, 1])
 
 # Place the logo in the middle column
-with col2:
-    st.image(str(logo_path), width=50, caption="MindMate AI AI", output_format="PNG", use_column_width=True)
+#with col2:
+    #st.image(str(logo_path), width=50, caption="MindMate AI AI", output_format="PNG", use_column_width=True)
 
 # Functionality for Chatbot Page
 if page == "Chatbot":
